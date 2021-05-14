@@ -1,0 +1,73 @@
+@font-face {
+    font-family: THSarabunIT;
+    src: url(../assets/THSarabunIT.ttf) format("opentype");
+}
+
+.background-certificate {
+    background-image: url('../assets/shareholder_masterform.jpg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 600px;
+    //border: 1px solid black;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+
+.shareholder-id {
+    position: relative;
+    top: 185px;
+    left: 160px;
+    font-family: 'THSarabunIT';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.certificate-id {
+    position: relative;
+    top: 185px;
+    left: 400px;
+    font-family: 'THSarabunIT';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.shareholder-name {
+    position: relative;
+    top: 195px;
+    left: 200px;
+    font-family: 'THSarabunIT';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.shareholder-numshare{
+    position: relative;
+    top: 205px;
+    left: 300px;
+    font-family: 'THSarabunIT';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.shareholder-valueshare{
+    position: relative;
+    top: 220px;
+    left: 450px;
+    font-family: 'THSarabunIT';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.register-date {
+    position: relative;
+    top: 270px;
+    left: 200px;
+    font-family: 'THSarabunIT';
+    font-size: 24px;
+    font-weight: 500;
+}
