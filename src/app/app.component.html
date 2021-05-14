@@ -1,4 +1,14 @@
-<div class="background-certificate">
+
+<div>
+  <div style="display: none;">
+    <img #canvas>
+    <a #downloadLink></a>
+  </div>
+  <button (click)="onDownload()">Download</button>
+</div>
+
+
+<div class="background-certificate" #certificate>
   <span class="shareholder-id">
     {{shareholderData.shareholderId}}
   </span>
@@ -18,3 +28,4 @@
     {{getThaiDate(shareholderData.registerDate)}}
   </div>
 </div>
+
